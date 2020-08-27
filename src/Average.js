@@ -13,7 +13,7 @@ const getAverage = numbers => {
 const Average = () => {
   const [list, setList] = useState([]);
   const [number, setNumber] = useState('');
-  const inputEl = useRef(null);
+  const inputEl = useRef(null);//
 
 
 
